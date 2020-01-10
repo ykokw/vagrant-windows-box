@@ -26,3 +26,15 @@ vagrantでwindows環境をつくる検証
 - vagrant up --provider=virtualbox
 - `Passw0rd!` でログイン
 
+## マシンにログイン後にやったほうがよさそうなこと
+
+### 画面サイズを可変にする
+
+- ツールバーからDevices > Insert Guest Additions CD Image...をクリック
+- ゲストOSでDVDドライブをクリックしてGuest Additionsをインストール
+- マシン再起動
+
+
+### スナップショットを取る
+
+- vagrant snapshot
