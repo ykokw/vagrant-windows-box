@@ -37,4 +37,4 @@ vagrantでwindows環境をつくる検証
 
 ### スナップショットを取る
 
-- vagrant snapshot
+- vagrant snapshot save default
